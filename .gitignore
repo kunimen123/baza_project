@@ -8,8 +8,6 @@ venv/
 .env/
 
 # Django
-db.sqlite3
-*.sqlite3
 staticfiles/
 
 # VS Code
