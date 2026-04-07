@@ -1,0 +1,50 @@
+{% extends 'kb/base.html' %}
+{% block title %}Статьи{% endblock %}
+
+{% block content %}
+<h1>База знаний</h1>
+
+<form method="get" class="search-form">
+    <input type="text" name="q" placeholder="Поиск..." value="{{ q }}">
+    <button type="submit">Поиск</button>
+</form>
+
+
+<div class="tags">
+
+    {% if current_tag %}
+        <a href="{% if q %}?q={{ q }}{% else %}?{% endif %}" class="tag">
+            Сбросить
+        </a>
+    {% endif %}
+
+    {% if user.is_authenticated %}
+        <a href="?mine=1{% if q %}&q={{ q }}{% endif %}" 
+           class="tag {% if mine %}active{% endif %}">
+            Мои статьи
+        </a>
+    {% endif %}
+
+    {% for tag in tags %}
+        <a href="?tag={{ tag.slug }}{% if q %}&q={{ q }}{% endif %}"
+           class="tag {% if current_tag == tag.slug %}active{% endif %}">
+            {{ tag.name }}
+        </a>
+    {% endfor %}
+</div>
+
+
+<div class="article-list">
+    {% for article in articles %}
+    <a href="{{ article.get_absolute_url }}" class="article-card">
+        <h3>{{ article.title }}</h3>
+        <p>{{ article.summary|default:"Описание отсутствует" }}</p>
+        <span class="date">{{ article.created_at|date:"d.m.Y" }}</span>
+    </a>
+    {% empty %}
+        <p>Ничего не найдено.</p>
+    {% endfor %}
+</div>
+
+{% endblock %}
+

@@ -1,0 +1,18 @@
+{% extends 'kb/base.html' %}
+{% block title %}Избранное{% endblock %}
+
+{% block content %}
+<h1>Избранное</h1>
+
+<div class="article-list">
+    {% for article in articles %}
+        <a href="{{ article.get_absolute_url }}" class="article-card">
+            <h3>{{ article.title }}</h3>
+            <p>{{ article.summary|default:"Описание отсутствует" }}</p>
+        </a>
+    {% empty %}
+        <p>Пусто.</p>
+    {% endfor %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends 'kb/base.html' %}
+{% block title %}{{ article.title }}{% endblock %}
+
+{% block content %}
+
+<h1>{{ article.title }}</h1>
+
+<div class="article-meta">
+    <span>Категория: {{ article.category }}</span>
+    <span>Теги: 
+        {% for t in article.tags.all %}
+            <a href="?tag={{ t.slug }}">{{ t.name }}</a>{% if not forloop.last %}, {% endif %}
+        {% endfor %}
+    </span>
+</div>
+
+<div class="article-content">
+    {% if article.image %}
+        <div class="article-image" style="margin-bottom: 16px;">
+            <img src="{{ article.image.url }}" alt="{{ article.title }}" style="max-width:100%; border-radius:8px;">
+        </div>
+    {% endif %}
+    {{ article.content|linebreaks }}
+</div>
+
+<form method="post" action="{% url 'kb:article_favorite' article.slug %}">
+    {% csrf_token %}
+    <button class="fav-btn">
+        {% if user in article.favorited_by.all %}
+            ★ В избранном
+        {% else %}
+            ☆ В избранное
+        {% endif %}
+    </button>
+</form>
+
+<a href="{% url 'kb:article_edit' slug=article.slug %}" class="edit-btn">Редактировать</a>
+
+<hr>
+
+<h3>Рекомендации</h3>
+<div class="recs">
+    {% for rec in recs %}
+        <a href="{{ rec.get_absolute_url }}" class="rec-item">{{ rec.title }}</a>
+    {% empty %}
+        <p>Пока нет рекомендаций.</p>
+    {% endfor %}
+</div>
+
+{% endblock %}

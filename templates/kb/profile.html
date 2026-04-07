@@ -1,0 +1,14 @@
+{% extends 'kb/base.html' %}
+{% block title %}Профиль{% endblock %}
+
+{% block content %}
+<h1>Профиль</h1>
+
+<div class="profile-info">
+    <p><strong>Имя:</strong> {{ user.username }}</p>
+    <p><strong>Email:</strong> {{ user.email }}</p>
+    <p><strong>Избранных статей:</strong> {{ fav_count }}</p>
+</div>
+
+<a class="btn" href="{% url 'kb:favorites' %}">Посмотреть избранное</a>
+{% endblock %}

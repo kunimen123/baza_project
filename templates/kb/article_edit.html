@@ -1,0 +1,81 @@
+{% extends 'kb/base.html' %}
+{% block title %}Редактирование: {{ article.title }}{% endblock %}
+
+{% block content %}
+
+<h1>Редактирование статьи</h1>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    <div class="form-group">
+        {{ form.title.label_tag }}
+        {{ form.title }}
+        {% for err in form.title.errors %}
+            <div class="message error">{{ err }}</div>
+        {% endfor %}
+    </div>
+
+    <div class="form-group">
+        {{ form.category.label_tag }}
+        {{ form.category }}
+        {% for err in form.category.errors %}
+            <div class="message error">{{ err }}</div>
+        {% endfor %}
+    </div>
+
+    <div class="form-group">
+        {{ form.tags.label_tag }}
+        {{ form.tags }}
+        {% for err in form.tags.errors %}
+            <div class="message error">{{ err }}</div>
+        {% endfor %}
+    </div>
+
+    <div class="form-group">
+        {{ form.summary.label_tag }}
+        {{ form.summary }}
+        {% for err in form.summary.errors %}
+            <div class="message error">{{ err }}</div>
+        {% endfor %}
+    </div>
+
+    <div class="form-group">
+        {{ form.content.label_tag }}
+        {{ form.content }}
+        {% if form.content.help_text %}
+            <small>{{ form.content.help_text }}</small>
+        {% endif %}
+        {% for err in form.content.errors %}
+            <div class="message error">{{ err }}</div>
+        {% endfor %}
+    </div>
+
+    {% if article.image %}
+        <div class="form-group">
+            <label>Текущее изображение:</label><br>
+            <img src="{{ article.image.url }}" alt="image" style="max-width: 200px; border-radius: 6px; margin-bottom: 10px;">
+        </div>
+    {% endif %}
+
+    <div class="form-group">
+        {{ form.image.label_tag }}
+        {{ form.image }}
+        {% for err in form.image.errors %}
+            <div class="message error">{{ err }}</div>
+        {% endfor %}
+    </div>
+
+    <div class="form-group">
+        {{ form.is_published.label_tag }}
+        {{ form.is_published }}
+        {% for err in form.is_published.errors %}
+            <div class="message error">{{ err }}</div>
+        {% endfor %}
+    </div>
+
+    <button type="submit" class="btn">Сохранить</button>
+    <a href="{{ article.get_absolute_url }}">Отмена</a>
+</form>
+
+{% endblock %}
