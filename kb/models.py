@@ -3,6 +3,7 @@ from django.conf import settings
 from django.urls import reverse
 from django.utils.text import slugify
 from django.contrib.auth.models import User
+from transliterate import translit
 
 class Category(models.Model):
     name = models.CharField(max_length=120, unique=True)
@@ -14,9 +15,19 @@ class Category(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.slug:
-            self.slug = slugify(self.name)
+            try:
+                latin = translit(self.name, 'ru', reversed=True)
+            except:
+                latin = self.name
+            base_slug = slugify(latin)[:130]
+            slug = base_slug
+            counter = 1
+            while Category.objects.filter(slug=slug).exists():
+                slug = f"{base_slug}-{counter}"
+                counter += 1
+            self.slug = slug
         super().save(*args, **kwargs)
-
+        
     def __str__(self):
         return self.name
 
@@ -27,12 +38,22 @@ class Tag(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.slug:
-            self.slug = slugify(self.name)
+            # Для русского текста транслитерируем
+            try:
+                latin = translit(self.name, 'ru', reversed=True)
+            except:
+                latin = self.name
+            base_slug = slugify(latin)[:55]
+            slug = base_slug
+            counter = 1
+            while Tag.objects.filter(slug=slug).exists():
+                slug = f"{base_slug}-{counter}"
+                counter += 1
+            self.slug = slug
         super().save(*args, **kwargs)
 
     def __str__(self):
         return self.name
-
 
 class Article(models.Model):
     title = models.CharField(max_length=255)
