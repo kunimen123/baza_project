@@ -169,16 +169,16 @@ class AdminUserViewSet(viewsets.ModelViewSet):
         if 'is_staff' in request.data:
             user.is_staff = request.data['is_staff']
             user.save()
-        return Response(UserSerializer(user).data)
-    
+        serializer = self.get_serializer(user)
+        return Response(serializer.data)
+
     def partial_update(self, request, *args, **kwargs):
         user = self.get_object()
-        # Принудительно обновляем is_staff, если он передан
         if 'is_staff' in request.data:
             user.is_staff = request.data['is_staff']
             user.save()
-        # Вызываем стандартный partial_update для остальных полей
-        return super().partial_update(request, *args, **kwargs)
+        serializer = self.get_serializer(user)
+        return Response(serializer.data)
 
 
 class ViewHistoryViewSet(viewsets.ReadOnlyModelViewSet):
