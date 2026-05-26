@@ -162,23 +162,15 @@ class AdminUserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = [permissions.IsAdminUser]
-    http_method_names = ['get', 'put', 'patch', 'head']
+    http_method_names = ['get', 'patch', 'delete']
 
-    def update(self, request, *args, **kwargs):
+    def patch(self, request, *args, **kwargs):
         user = self.get_object()
         if 'is_staff' in request.data:
             user.is_staff = request.data['is_staff']
             user.save()
         serializer = self.get_serializer(user)
-        return Response(serializer.data)
-
-    def partial_update(self, request, *args, **kwargs):
-        user = self.get_object()
-        if 'is_staff' in request.data:
-            user.is_staff = request.data['is_staff']
-            user.save()
-        serializer = self.get_serializer(user)
-        return Response(serializer.data)
+        return Response(serializer.data, status=status.HTTP_200_OK)
 
 
 class ViewHistoryViewSet(viewsets.ReadOnlyModelViewSet):
