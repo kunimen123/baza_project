@@ -6,7 +6,10 @@ from .models import Category, Tag, Article, ViewHistory
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['id', 'username', 'email', 'is_staff']  # никогда не включайте password
+        fields = ['id', 'username', 'email', 'is_staff']
+        extra_kwargs = {
+            'is_staff': {'read_only': False}
+        }
 
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
