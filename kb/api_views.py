@@ -162,15 +162,14 @@ class AdminUserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
     permission_classes = [permissions.IsAdminUser]
-    http_method_names = ['get', 'patch', 'delete']
+    http_method_names = ['get', 'patch']
 
     def patch(self, request, *args, **kwargs):
         user = self.get_object()
         if 'is_staff' in request.data:
             user.is_staff = request.data['is_staff']
             user.save()
-        serializer = self.get_serializer(user)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        return Response({'is_staff': user.is_staff}, status=200)
 
 
 class ViewHistoryViewSet(viewsets.ReadOnlyModelViewSet):
