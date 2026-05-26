@@ -1,0 +1,1765 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$0xseYJRfD0NdqWXqbSm8p9$3qlZanJhxuM18bpJUDbJV5z2Vb70yoy34DrOCWJq/uM=",
+    "last_login": "2026-05-11T07:36:16.997Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-11-14T09:03:14.957Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$hlniSGGZyYeu1Yx64plYnp$04nloYyz6d0s5QoDqYyj8QyWGTfiWoHefOR6RuU7fVE=",
+    "last_login": "2025-12-19T00:35:04.287Z",
+    "is_superuser": false,
+    "username": "test",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-11-18T04:47:39.334Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$NB0W6aRMHBoo2849fIvXya$zoDEf12kW248n5v4Pg9XQrCOWD1O5cuDuWs/EmelZEI=",
+    "last_login": "2025-12-08T09:59:47.843Z",
+    "is_superuser": false,
+    "username": "test1",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-11-19T11:22:33.809Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$WTHH9t8Pbr2WpOiAAif4SV$rO3OvOQUHVrnV2LHZlSL0WsEEgwUDvEWuNg9FQZkmro=",
+    "last_login": "2026-05-08T14:35:53.566Z",
+    "is_superuser": false,
+    "username": "neadmin",
+    "first_name": "",
+    "last_name": "",
+    "email": "kudryavsteva.ss@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-01-28T04:46:09.950Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$17OBX3QaDJB9ynl5Oy3vlE$hNQKK5gnwylFs9496wVTEy1tlrVKMUB6qqPspFdyruw=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "host",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-04-07T03:15:16.784Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$X2RozR6dhqkK9vYB4ddVy9$EPW6Eb8EnEO+tkEV+WjJoVsvY3awKpYk2g8HVByJBig=",
+    "last_login": "2026-05-08T06:41:40.201Z",
+    "is_superuser": false,
+    "username": "test5",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T06:41:39.489Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$durz5pIjNpF3NuILq4i0HW$J/hrkdP7aXOtGdXa1ii+1YNfM6O4Ur/tRy6l1seekmo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "123",
+    "first_name": "",
+    "last_name": "",
+    "email": "123",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-05-08T10:33:54.579Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "21ut19x8px9m547yp0mx6hrfokk760pb",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQAP-FsyHtAgv16L3fQJbHStWUpLQn478bkh70OjOZt_B07MUfLW9-SeIqQFx-WaD4zGsX6UHrvcpY131bguyJPG2Tc035dTvbv0GhVvpWWyTQypLBMbFlFx1x1hM6gHGKU2QLjIYwGM4MiAkC4GB1oMEpJT5f1i83hg:1vSdX8:64dxM_ACmhhHUbdF-LROuQ1Z_BrqFfH4U7qbBL3QfYs",
+    "expire_date": "2025-12-22T15:52:18.867Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6lkmmxfg0v90iwvpbodflugs5qtodgzs",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlm7_vEp6XMGa9de4wBypDipEHeHSCmgfTPzXirSutS4dpnjmNVFoTr8bkzpIW0D-U7tNuk0tWUeWW-K3mnXw5Tled3dv4NKvX7rZEUgsAeHZwPZCQeiHExJiGQJyAQbyKIDQAA5HY2kUth7dhnZkXp_AOGxN_E:1wLFZz:J5dKE4fXjUcyn33oeiLZM2fRoZwGadvg_knGpilO2UI",
+    "expire_date": "2026-05-22T07:24:59.794Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6qtz3t9xz30powqr1sqnjvmpabxbuok2",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlm7_vEp6XMGa9de4wBypDipEHeHSCmgfTPzXirSutS4dpnjmNVFoTr8bkzpIW0D-U7tNuk0tWUeWW-K3mnXw5Tled3dv4NKvX7rZEUgsAeHZwPZCQeiHExJiGQJyAQbyKIDQAA5HY2kUth7dhnZkXp_AOGxN_E:1wMLBZ:9h0AnZyrNa_uZADxouFfGsuL7zCjL_WFg0kwhePZEqk",
+    "expire_date": "2026-05-25T07:36:17.002Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8fh7hl14ev8amlrmhu5mir6qpxflhk2y",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlm7_vEp6XMGa9de4wBypDipEHeHSCmgfTPzXirSutS4dpnjmNVFoTr8bkzpIW0D-U7tNuk0tWUeWW-K3mnXw5Tled3dv4NKvX7rZEUgsAeHZwPZCQeiHExJiGQJyAQbyKIDQAA5HY2kUth7dhnZkXp_AOGxN_E:1vKw7i:I2Y6koRklpHs4yMe0wTAuYdzc_LH4Wg1XtpZutVPMQI",
+    "expire_date": "2025-12-01T10:06:14.120Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dpcdukg62manj7k7ddnb34cjihwapnmd",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlnxd21Kes5g7fqDA8iR4qRC3B0spYBuNO_NvFjAfath73kNc2JnptnptyOMj9wGSHdst4XHpW3rTHwo_KCdX5eUn5fD_Tuo2Ot3XSYwFlyOGoUyBAm8BNTOCi8lOQtlRIHOSDcVSIqiKtGRJ2FztIq9P7_zNzQ:1vkxRS:_V-6DLhIGwBYH6ytjRLCLJ4Uhytjq_Zog2FupyZOC54",
+    "expire_date": "2026-02-11T04:46:10.471Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "roqzaqmb0qtlu4j5no5gqostjsa8vs7w",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlnxd21Kes5g7fqDA8iR4qRC3B0spYBuNO_NvFjAfath73kNc2JnptnptyOMj9wGSHdst4XHpW3rTHwo_KCdX5eUn5fD_Tuo2Ot3XSYwFlyOGoUyBAm8BNTOCi8lOQtlRIHOSDcVSIqiKtGRJ2FztIq9P7_zNzQ:1w2ode:0yzBob2n0qJwoWZic3uITZTgBCu4jrskeAAe-t0bF5s",
+    "expire_date": "2026-04-01T11:00:34.551Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tbhp1fdwiq0nnttd2bc78cw3kks6vam7",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQRO_iGlnxd21Kes5g7fqDA8iR4qRC3B0spYBuNO_NvFjAfath73kNc2JnptnptyOMj9wGSHdst4XHpW3rTHwo_KCdX5eUn5fD_Tuo2Ot3XSYwFlyOGoUyBAm8BNTOCi8lOQtlRIHOSDcVSIqiKtGRJ2FztIq9P7_zNzQ:1w9wrP:wwe5M4RLFEWrHnObIzEagHd1d5LEu0xvJ8L3W-pT4t0",
+    "expire_date": "2026-04-21T03:12:15.958Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tbt3gayermasb2r2d6wuerzt6juvhg21",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlm7_vEp6XMGa9de4wBypDipEHeHSCmgfTPzXirSutS4dpnjmNVFoTr8bkzpIW0D-U7tNuk0tWUeWW-K3mnXw5Tled3dv4NKvX7rZEUgsAeHZwPZCQeiHExJiGQJyAQbyKIDQAA5HY2kUth7dhnZkXp_AOGxN_E:1vWOVX:VeaWfJsbtcs7du4zKsho-RyaOmLZBcDNsHp9XxwDFv0",
+    "expire_date": "2026-01-02T00:38:11.109Z"
+  }
+},
+{
+  "model": "kb.category",
+  "pk": 1,
+  "fields": {
+    "name": "WeDo 2.0 LEGO Education",
+    "slug": "wedo-20-lego-education"
+  }
+},
+{
+  "model": "kb.category",
+  "pk": 2,
+  "fields": {
+    "name": "IDE Scratch 3.0",
+    "slug": "ide-scratch-30"
+  }
+},
+{
+  "model": "kb.category",
+  "pk": 3,
+  "fields": {
+    "name": "Программирование микроконтроллеров Arduino",
+    "slug": "programmirovanie-mikrokontrollerov-arduino"
+  }
+},
+{
+  "model": "kb.category",
+  "pk": 4,
+  "fields": {
+    "name": "Механика",
+    "slug": "mehanika"
+  }
+},
+{
+  "model": "kb.category",
+  "pk": 5,
+  "fields": {
+    "name": "Робототехника",
+    "slug": "robototehnika"
+  }
+},
+{
+  "model": "kb.category",
+  "pk": 6,
+  "fields": {
+    "name": "Алгоритмы",
+    "slug": "algoritmy"
+  }
+},
+{
+  "model": "kb.category",
+  "pk": 7,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "kb.category",
+  "pk": 8,
+  "fields": {
+    "name": "Программирование",
+    "slug": "programmirovanie"
+  }
+},
+{
+  "model": "kb.category",
+  "pk": 9,
+  "fields": {
+    "name": "Командная строка",
+    "slug": ""
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 1,
+  "fields": {
+    "name": "платформы",
+    "slug": "platformy"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 2,
+  "fields": {
+    "name": "механика",
+    "slug": "mehanika"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 3,
+  "fields": {
+    "name": "основы",
+    "slug": "osnovy"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 4,
+  "fields": {
+    "name": "теория",
+    "slug": "teoriya"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 5,
+  "fields": {
+    "name": "датчики",
+    "slug": "datchiki"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 6,
+  "fields": {
+    "name": "#Scratch",
+    "slug": "scratch"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Начинающим",
+    "slug": "nachinayushim"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Логика",
+    "slug": "logika"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Алгоритмы",
+    "slug": "algoritmy"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Роботы",
+    "slug": "roboty"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 11,
+  "fields": {
+    "name": "Инженерия",
+    "slug": "inzheneriya"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 12,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 13,
+  "fields": {
+    "name": "циклы",
+    "slug": ""
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 18,
+  "fields": {
+    "name": "123",
+    "slug": "123"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 19,
+  "fields": {
+    "name": "qwe",
+    "slug": "qwe"
+  }
+},
+{
+  "model": "kb.tag",
+  "pk": 20,
+  "fields": {
+    "name": "йцу",
+    "slug": "jtsu"
+  }
+},
+{
+  "model": "kb.article",
+  "pk": 1,
+  "fields": {
+    "title": "Центр тяжести",
+    "slug": "centr-tyazhesti",
+    "summary": "Расстановка центра тяжести: простые правила",
+    "content": "Расстановка центра тяжести: простые правилаРасстановка центра тяжести: простые правилаРасстановка центра тяжести: простые правилаРасстановка центра тяжести: простые правила",
+    "category": 4,
+    "author": [
+      "admin"
+    ],
+    "is_published": true,
+    "created_at": "2025-11-17T15:10:52.737Z",
+    "updated_at": "2025-12-08T10:29:04.922Z",
+    "image": "article_images/photo_2025-12-08_17-28-52.jpg",
+    "tags": [
+      2,
+      4
+    ],
+    "favorited_by": [
+      [
+        "test"
+      ],
+      [
+        "test1"
+      ],
+      [
+        "123"
+      ]
+    ],
+    "edited_by": [
+      [
+        "admin"
+      ],
+      [
+        "test"
+      ]
+    ],
+    "editors": [
+      [
+        "test"
+      ]
+    ]
+  }
+},
+{
+  "model": "kb.article",
+  "pk": 3,
+  "fields": {
+    "title": "Алгоритмы",
+    "slug": "algoritmi",
+    "summary": "Алгоритмы",
+    "content": "АлгоритмыАлгоритмыАлгоритмы",
+    "category": 2,
+    "author": [
+      "test"
+    ],
+    "is_published": true,
+    "created_at": "2025-11-19T13:47:24.323Z",
+    "updated_at": "2025-12-19T00:48:39.474Z",
+    "image": "",
+    "tags": [
+      3,
+      4
+    ],
+    "favorited_by": [],
+    "edited_by": [],
+    "editors": [
+      [
+        "admin"
+      ]
+    ]
+  }
+},
+{
+  "model": "kb.article",
+  "pk": 4,
+  "fields": {
+    "title": "Детали",
+    "slug": "-2",
+    "summary": "Детали",
+    "content": "ДеталиДеталиДеталиДетали",
+    "category": 1,
+    "author": [
+      "test"
+    ],
+    "is_published": true,
+    "created_at": "2025-11-26T22:05:27.386Z",
+    "updated_at": "2025-12-08T09:57:30.390Z",
+    "image": "",
+    "tags": [
+      3,
+      4
+    ],
+    "favorited_by": [],
+    "edited_by": [
+      [
+        "test"
+      ]
+    ],
+    "editors": [
+      [
+        "admin"
+      ],
+      [
+        "test"
+      ],
+      [
+        "test1"
+      ]
+    ]
+  }
+},
+{
+  "model": "kb.article",
+  "pk": 5,
+  "fields": {
+    "title": "Первые шаги в Python",
+    "slug": "python",
+    "summary": "Практическое руководство по установке Python и созданию своей первой программы для абсолютных новичков",
+    "content": "Python — один из лучших языков для старта в программировании благодаря простому и читаемому синтаксису. В этой статье мы подробно разберем, как скачать и установить интерпретатор Python на вашем компьютере, напишем классическую программу вывода приветствия на экран и узнаем, как ее запустить.",
+    "category": 7,
+    "author": [
+      "test"
+    ],
+    "is_published": true,
+    "created_at": "2025-12-18T23:25:23.552Z",
+    "updated_at": "2026-05-12T08:17:09.608Z",
+    "image": "article_images/Python-Logo-PNG-Image-1950003377_d8SE7rW.png",
+    "tags": [
+      3,
+      7,
+      12
+    ],
+    "favorited_by": [
+      [
+        "test5"
+      ]
+    ],
+    "edited_by": [],
+    "editors": []
+  }
+},
+{
+  "model": "kb.article",
+  "pk": 7,
+  "fields": {
+    "title": "Учим логике: создаём диалог с ветвлением в Scratch",
+    "slug": "dialog-s-vetvleniem",
+    "summary": "Как с помощью блоков \"если-то-иначе\" запрограммировать интерактивный разговор персонажа с игроком.",
+    "content": "Ветвление — это основа интерактивности в программах. В Scratch это реализуется интуитивно понятными цветными блоками. Мы создадим небольшой скрипт, где персонаж задаёт вопрос и по-разному реагирует на ответы пользователя. Этот проект отлично тренирует алгоритмическое мышление.",
+    "category": 2,
+    "author": [
+      "admin"
+    ],
+    "is_published": true,
+    "created_at": "2025-12-18T23:29:33.065Z",
+    "updated_at": "2026-05-11T08:25:02.560Z",
+    "image": "",
+    "tags": [
+      3,
+      5,
+      6,
+      7,
+      9
+    ],
+    "favorited_by": [
+      [
+        "admin"
+      ],
+      [
+        "test5"
+      ]
+    ],
+    "edited_by": [],
+    "editors": [
+      [
+        "admin"
+      ],
+      [
+        "neadmin"
+      ]
+    ]
+  }
+},
+{
+  "model": "kb.article",
+  "pk": 8,
+  "fields": {
+    "title": "test",
+    "slug": "test",
+    "summary": "test",
+    "content": "test",
+    "category": null,
+    "author": [
+      "123"
+    ],
+    "is_published": true,
+    "created_at": "2026-05-08T16:22:24.123Z",
+    "updated_at": "2026-05-14T12:33:31.713Z",
+    "image": "article_images/rob_n4o5Q1t.jpg",
+    "tags": [
+      3,
+      4,
+      10
+    ],
+    "favorited_by": [],
+    "edited_by": [],
+    "editors": []
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-11-17T16:44:43.476Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T04:37:06.796Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T04:37:16.879Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T04:37:18.551Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T04:37:56.703Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T04:47:46.400Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T04:47:47.496Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 8,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T04:47:49.352Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T05:06:21.249Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 10,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T05:06:22.218Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 11,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T05:06:26.573Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 12,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-18T05:06:27.712Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 13,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:28:04.562Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 14,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:28:06.110Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 15,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:28:28.173Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 16,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:28:29.252Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 17,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:30:24.283Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 18,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:30:25.923Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 19,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:30:39.920Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 20,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:30:41.318Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 21,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:30:42.351Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 22,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:30:50.436Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 23,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:30:51.483Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 24,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:30:55.134Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 25,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:35:28.300Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 26,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T11:37:57.055Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 27,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-19T13:27:34.032Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 28,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 3,
+    "ts": "2025-11-19T13:47:24.341Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 29,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-26T22:04:05.220Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 30,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-26T22:04:07.018Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 31,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 4,
+    "ts": "2025-11-26T22:05:27.407Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 32,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 4,
+    "ts": "2025-11-26T22:05:36.524Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 33,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-26T22:06:25.283Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 34,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-26T22:06:34.161Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 35,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 4,
+    "ts": "2025-11-26T22:06:41.968Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 36,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 4,
+    "ts": "2025-11-26T22:06:48.081Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 37,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-26T22:15:14.931Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 38,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-26T22:15:19.342Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 40,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 4,
+    "ts": "2025-11-27T14:10:29.799Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 41,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 3,
+    "ts": "2025-11-27T14:10:34.621Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 43,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 1,
+    "ts": "2025-11-27T14:10:43.366Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 44,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T09:14:33.992Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 45,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T09:14:48.292Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 46,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T09:14:50.709Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 47,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T09:14:52.521Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 48,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 4,
+    "ts": "2025-12-08T09:27:09.407Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 49,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T09:59:54.463Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 50,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T09:59:55.789Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 51,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T10:00:01.356Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 52,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 4,
+    "ts": "2025-12-08T10:06:32.023Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 53,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 4,
+    "ts": "2025-12-08T10:06:51.319Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 54,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 4,
+    "ts": "2025-12-08T10:24:10.509Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 55,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 3,
+    "ts": "2025-12-08T10:24:36.504Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 56,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T10:24:40.439Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 57,
+  "fields": {
+    "user": [
+      "test1"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T10:27:22.289Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 58,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T10:27:28.039Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 59,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T10:29:04.943Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 60,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T10:29:10.139Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 61,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T10:31:18.365Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 62,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T14:32:06.095Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 63,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 3,
+    "ts": "2025-12-08T14:32:10.153Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 64,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 3,
+    "ts": "2025-12-08T14:38:18.656Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 65,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 3,
+    "ts": "2025-12-08T14:38:19.917Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 66,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 4,
+    "ts": "2025-12-08T14:38:24.328Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 67,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 4,
+    "ts": "2025-12-08T14:38:47.039Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 68,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 3,
+    "ts": "2025-12-08T14:38:50.762Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 69,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T14:38:53.645Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 70,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T14:38:56.493Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 71,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T14:41:38.067Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 72,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 4,
+    "ts": "2025-12-08T14:41:40.392Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 73,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-08T14:41:44.099Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 74,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 3,
+    "ts": "2025-12-08T14:41:46.398Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 75,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 4,
+    "ts": "2025-12-08T14:41:47.745Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 76,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 5,
+    "ts": "2025-12-18T23:25:23.573Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 77,
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "article": 4,
+    "ts": "2025-12-18T23:25:35.749Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 78,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2025-12-18T23:31:48.383Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 80,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2025-12-18T23:33:43.013Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 81,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2025-12-18T23:42:02.299Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 82,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 4,
+    "ts": "2025-12-18T23:46:22.548Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 84,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 3,
+    "ts": "2025-12-18T23:46:42.791Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 85,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2025-12-18T23:46:44.637Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 89,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2025-12-18T23:49:59.887Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 90,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2025-12-19T00:10:09.894Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 91,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2025-12-19T00:10:11.457Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 92,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2025-12-19T00:10:14.339Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 93,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2025-12-19T00:13:22.757Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 94,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-19T00:17:28.044Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 95,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 1,
+    "ts": "2025-12-19T00:17:29.335Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 96,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2025-12-19T00:21:31.828Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 97,
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "article": 7,
+    "ts": "2026-01-28T04:45:38.909Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 98,
+  "fields": {
+    "user": [
+      "neadmin"
+    ],
+    "article": 7,
+    "ts": "2026-01-28T04:46:13.846Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 100,
+  "fields": {
+    "user": [
+      "neadmin"
+    ],
+    "article": 7,
+    "ts": "2026-03-18T11:00:52.881Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 101,
+  "fields": {
+    "user": [
+      "neadmin"
+    ],
+    "article": 7,
+    "ts": "2026-03-18T11:05:08.352Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 102,
+  "fields": {
+    "user": [
+      "neadmin"
+    ],
+    "article": 7,
+    "ts": "2026-04-07T03:12:26.336Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 103,
+  "fields": {
+    "user": [
+      "neadmin"
+    ],
+    "article": 7,
+    "ts": "2026-04-07T03:12:27.302Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 104,
+  "fields": {
+    "user": [
+      "neadmin"
+    ],
+    "article": 7,
+    "ts": "2026-04-07T03:12:28.786Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 105,
+  "fields": {
+    "user": [
+      "neadmin"
+    ],
+    "article": 7,
+    "ts": "2026-04-07T03:12:30.108Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 106,
+  "fields": {
+    "user": [
+      "neadmin"
+    ],
+    "article": 7,
+    "ts": "2026-04-07T03:12:32.730Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 107,
+  "fields": {
+    "user": [
+      "neadmin"
+    ],
+    "article": 7,
+    "ts": "2026-04-07T03:12:33.498Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 108,
+  "fields": {
+    "user": [
+      "test5"
+    ],
+    "article": 7,
+    "ts": "2026-05-08T06:41:46.984Z"
+  }
+},
+{
+  "model": "kb.viewhistory",
+  "pk": 109,
+  "fields": {
+    "user": [
+      "test5"
+    ],
+    "article": 7,
+    "ts": "2026-05-08T06:41:48.040Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "017ebfe65d5f56387bfe2ab9b8372096cb69506f",
+  "fields": {
+    "user": [
+      "host"
+    ],
+    "created": "2026-05-08T14:33:55.210Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "33557bb0e809fbcd4a1e4a2d4630a0ac3e69ef55",
+  "fields": {
+    "user": [
+      "test5"
+    ],
+    "created": "2026-05-08T07:19:32.564Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "4ae6e107af5e5c6a3585cee8132ffdebd9ac0585",
+  "fields": {
+    "user": [
+      "123"
+    ],
+    "created": "2026-05-08T10:33:55.441Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "75499529cd56d38be373a3b47ce07c884d729f72",
+  "fields": {
+    "user": [
+      "admin"
+    ],
+    "created": "2026-05-08T07:20:44.288Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "d3f02edf6cb193144e508e26db578db8f5be2bb6",
+  "fields": {
+    "user": [
+      "test"
+    ],
+    "created": "2026-05-08T14:34:14.508Z"
+  }
+}
+]
