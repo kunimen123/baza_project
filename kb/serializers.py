@@ -64,11 +64,9 @@ class ArticleWriteSerializer(serializers.ModelSerializer):
     tags = serializers.PrimaryKeyRelatedField(queryset=Tag.objects.all(), many=True, required=False)
     editors = serializers.PrimaryKeyRelatedField(queryset=User.objects.all(), many=True, required=False)
     favorited_by = serializers.PrimaryKeyRelatedField(queryset=User.objects.all(), many=True, required=False)
-
+    image = serializers.ImageField(required=False, allow_null=True)
+    
     class Meta:
         model = Article
-        fields = [
-            'title', 'slug', 'summary', 'content',
-            'category', 'tags', 'is_published',
-            'editors', 'favorited_by', 'image',
-        ]
+        fields = ['title', 'slug', 'summary', 'content', 'category', 'tags', 
+                  'is_published', 'editors', 'favorited_by', 'image']
