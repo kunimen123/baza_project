@@ -17,7 +17,7 @@ from .permissions import (
     IsAdminUserOrReadOnly,
     ArticleAdminPermission,
 )
-
+from rest_framework.parsers import MultiPartParser, FormParser, JSONParser
 
 # ---------- Регистрация (отдельно, без лишних зависимостей) ----------
 class RegisterView(generics.CreateAPIView):
@@ -141,6 +141,7 @@ class AdminTagViewSet(viewsets.ModelViewSet):
 class AdminArticleViewSet(viewsets.ModelViewSet):
     serializer_class = ArticleSerializer
     permission_classes = [ArticleAdminPermission]
+    parser_classes = [MultiPartParser, FormParser, JSONParser]
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
     search_fields = ['title', 'summary', 'content']
     filterset_fields = ['is_published', 'category', 'tags']
