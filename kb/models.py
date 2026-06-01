@@ -58,7 +58,7 @@ class Tag(models.Model):
 class Article(models.Model):
     title = models.CharField(max_length=255)
     slug = models.SlugField(max_length=255, unique=True, blank=True)
-    summary = models.CharField(max_length=500, blank=True)
+    summary = models.CharField(blank=True)
     content = models.TextField()
     category = models.ForeignKey(Category, null=True, blank=True, on_delete=models.SET_NULL, related_name='articles')
     tags = models.ManyToManyField(Tag, blank=True, related_name='articles')
