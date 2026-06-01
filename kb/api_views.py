@@ -157,6 +157,19 @@ class AdminArticleViewSet(viewsets.ModelViewSet):
         if not user.is_superuser:
             qs = qs.filter(author=user) | qs.filter(editors=user)
         return qs.distinct()
+    
+    def update(self, request, *args, **kwargs):
+        partial = kwargs.pop('partial', False)
+        instance = self.get_object()
+        serializer = self.get_serializer(instance, data=request.data, partial=partial)
+        serializer.is_valid(raise_exception=True)
+        
+        # Явно сохраняем файл
+        if 'image' in request.data:
+            instance.image = request.data['image']
+        
+        self.perform_update(serializer)
+        return Response(serializer.data)
 
 
 class AdminUserViewSet(viewsets.ModelViewSet):
