@@ -133,9 +133,9 @@ CORS_ALLOW_HEADERS = [
 ]
 
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'твой_cloud_name',
-    'API_KEY': 'твой_api_key',
-    'API_SECRET': 'твой_api_secret',
+    'CLOUD_NAME': 'dqiwt5d8z',
+    'API_KEY': '885955929556365',
+    'API_SECRET': 'L5OLYSXhQxJ2Dn_mdRwnHXQHbL4',
 }
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
