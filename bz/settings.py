@@ -7,7 +7,7 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'dev-key'
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ["127.0.0.1", "localhost", ".onrender.com", 'baza-project.onrender.com','knowledge-base-d4sf.onrender.com',]
 
 
