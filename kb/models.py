@@ -91,7 +91,9 @@ class Article(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return reverse('kb:article_detail', args=[self.slug])
+        if self.slug:
+            return reverse('kb:article_detail', args=[self.slug])
+        return reverse('kb:article_list') 
 
 
 class ViewHistory(models.Model):
