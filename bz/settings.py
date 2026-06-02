@@ -22,7 +22,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'kb',  
+    'kb',
+    'cloudinary_storage',
+    'cloudinary',  
 ]
 
 
@@ -129,3 +131,11 @@ CORS_ALLOW_HEADERS = [
     'x-csrftoken',
     'x-requested-with',
 ]
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'твой_cloud_name',
+    'API_KEY': 'твой_api_key',
+    'API_SECRET': 'твой_api_secret',
+}
+
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
