@@ -153,10 +153,8 @@ class AdminArticleViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         user = self.request.user
-        qs = Article.objects.all()
-        if not user.is_superuser:
-            qs = qs.filter(author=user) | qs.filter(editors=user)
-        return qs.distinct()
+        if user.is_staff:
+            return Article.objects.all()
     
     def update(self, request, *args, **kwargs):
         partial = kwargs.pop('partial', False)
