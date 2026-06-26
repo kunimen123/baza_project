@@ -19,7 +19,7 @@ def create_superuser(apps, schema_editor):
 class Migration(migrations.Migration):
     # Эта строка — самая важная! Указываем зависимости от предыдущих миграций.
     dependencies = [
-        ('kb', '0004_fix_articles'),  # Замени на название последней существующей миграции в папке kb/migrations/
+        ('kb', '0004_article_image.py'),  # Замени на название последней существующей миграции в папке kb/migrations/
     ]
 
     # Указываем список операций, которые нужно выполнить
